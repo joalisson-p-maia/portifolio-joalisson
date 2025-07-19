@@ -1,0 +1,51 @@
+@keyframes scroll_habilities {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.habilities{
+  margin-top: 150px;
+  max-width: 100%;
+  width: 900px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: hidden;
+}
+
+.habilities > h2{
+  font-weight: 800;
+}
+
+.habilities__wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: max-content;
+  animation: scroll_habilities 30s linear infinite;
+}
+
+.habilities__single{
+  flex: 0 0 auto;
+  margin-right: 20px;
+}
+
+.habilities__single:last-of-type{
+  margin-right: 0;
+}
+
+.habilities__slider {
+  overflow: hidden;
+  width: 100%;
+}
+
+.habilities__single svg {
+  width: 50px;
+  height: 50px; 
+  margin: 60px 10px;
+}

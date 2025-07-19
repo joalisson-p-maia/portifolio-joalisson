@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.about__me__initial{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about__me__text{
+    width: 450px;
+    z-index: 999;
+}
+
+.about__me__text > h2{
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about__me__text > h2 > span{
+    color: rgb(88, 88, 243);
+}
+
+.about__me__text > nav{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.about__me__text > nav > a{
+    width: 130px;
+    height: 35px;
+    text-decoration: none;
+    color: #f5f5f5;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    transition: all 0.4s ease-in-out;
+}
+
+.about__me__text > nav > a:nth-child(1),
+.about__me__main__content > nav > a:nth-child(1){
+    border-radius: 5px;
+    background-color: rgb(46, 46, 226);
+}
+
+.about__me__text > nav > a:nth-child(1):hover,
+.about__me__main__content > nav > a:nth-child(1):hover{
+    background-color: rgb(57, 57, 226);
+}
+
+.about__me__text > nav > a:nth-child(2),
+.about__me__main__content > nav > a:nth-child(2){
+    margin-left: 30px;
+    border: 1px solid #f5f5f5;
+    border-radius: 5px;
+}
+
+.about__me__text > nav > a:nth-child(2):hover,
+.about__me__main__content > nav > a:nth-child(2):hover{
+    border: 1px solid rgba(245, 245, 245, 0.185);
+    cursor: pointer;
+}
+
+.about__me__text > nav > a:nth-child(1) > svg,
+.about__me__main__content > nav > a:nth-child(1) > svg{
+    width: 20px;
+    height: 20px;
+}
+
+.about__me__text > nav > a:nth-child(2) > svg,
+.about__me__main__content > nav > a:nth-child(2) > svg{
+    width: 26px;
+    height: 26px;
+}
+
+/*about__me__code*/
+.about__me__code{
+    z-index: 999;
+    position: relative;
+}
+
+.about__me__code__box{
+    width: 520px;
+    height: 300px;
+    border-radius: 3px;
+    border: 1px solid #ffffff4b;
+    z-index: 500;
+    background-color: rgba(36, 34, 34, 0.4);
+}
+
+.about__me__code__header__balls,
+.about__me__main__balls{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+
+.about__me__code__header__balls > div{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: rgba(243, 238, 238, 0.829);
+    margin-left: 10px;
+}
+
+.about__me__code__header__balls > .about__me__code__header__ball__red,
+.about__me__main__balls > .about__me__main__ball__red{
+    background-color: rgba(255, 0, 0, 0.726);
+}
+
+.about__me__code__header__balls > .about__me__code__header__ball__yellow,
+.about__me__main__balls > .about__me__main__ball__yellow{
+    background-color: rgba(225, 240, 12, 0.795);
+}
+
+.about__me__code__header__balls > .about__me__code__header__ball__green,
+.about__me__main__balls > .about__me__main__ball__green{
+    background-color: rgba(12, 240, 12, 0.596);
+}
+
+.about__me__code__header__line{
+    max-width: 100%;
+    width: 400px;
+    height: 2px;
+    background: linear-gradient(to right,#f5f5f59d, #f5f5f525);
+    border-radius: 4px;  
+    margin: 10px;
+}
+
+.about__me__code__body{
+    padding: 0 10px;
+}
+
+.about__me__code__body__content > h3{
+    font-size: 12px;
+    margin-top: 3px;
+}
+
+.about__me__code__body__content > h3:nth-child(2),
+.about__me__code__body__content > h3:nth-child(3),
+.about__me__code__body__content > h3:last-child{
+    margin-left: 20px;
+}
+
+.about__me__code__body__content > h3:not(
+    :nth-child(1),
+    :nth-child(2),
+    :nth-child(3),
+    :last-child
+){
+    margin-left: 40px;
+}
+
+/*about__me__code__body__docs*/
+.about__me__code__body__docs{
+    width: 300px;
+    height: 170px;
+    border-radius: 3px;
+    border: 1px solid #ffffff27;
+    z-index: 999;
+    position: absolute;
+    right: -60px;
+    bottom: -90px;
+    background-color: rgb(36, 34, 34);
+    padding: 20px 10px;
+}
+
+.about__me__code__body__docs > p{
+    font-size: 13px;
+}
+
+.about__me__code__body__docs > p:nth-child(2){
+    padding: 5px 10px;
+    line-height: 18px;
+}
+
+/*about me main*/
+.about__me__main{
+    margin-top: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about__me__main__content > nav > a:nth-child(1) > svg{
+    width: 20px;
+    height: 20px;
+}
+
+.about__me__main__content > nav > a:nth-child(2) > svg{
+    width: 28px;
+    height: 28px;
+}
+
+.about__me__main__box{
+    width: 400px;
+    height: 300px;
+    border-radius: 3px;
+    border: 1px solid #ffffff4b;
+    z-index: 500;
+    background-color: rgba(10, 16, 36, 0.3);
+    position: relative;
+}
+
+.about__me__main__balls > div{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(243, 238, 238, 0.829);
+    margin-left: 10px;
+}
+
+.about__me__main__line{
+    max-width: 100%;
+    width: 280px;
+    height: 2px;
+    background: linear-gradient(to right,#f5f5f59d, #f5f5f525);
+    border-radius: 4px;  
+    margin: 10px;
+}
+
+.about__me__main__box > h3{
+    font-size: 11px;
+    margin-left: 10px;
+}
+
+.about__me__main__box > picture{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.about__me__main__box > picture > img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.about__me__main__content{
+    width: 900px;
+    max-width: 100%;
+}
+
+.about__me__main__content > h2{
+    font-weight: 700;
+}
+
+.about__me__main__content > h3{
+    padding: 40px 0 30px 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.about__me__main__content > p{
+    text-align: justify;
+}
+
+.about__me__main__content > nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 200px;
+    margin-top: 30px;
+}
+
+.about__me__main__content > nav > a{
+    min-width: 130px;
+    height: 35px;
+    text-decoration: none;
+    color: #f5f5f5;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    transition: all 0.4s ease-in-out;
+}

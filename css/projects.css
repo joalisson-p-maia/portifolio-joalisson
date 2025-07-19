@@ -1,0 +1,86 @@
+.projects{
+    margin-top: 100px;
+}
+
+.projects__wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.project__single{
+    border: 1px solid rgba(245, 245, 245, 0.185);
+    border-radius: 5px;
+    width: 400px;
+    height: 500px;
+}
+
+.project__single > picture,
+.project__single > picture > img{
+    width: 400px;
+    height: 200px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.project__content{
+    padding: 0 10px;
+}
+
+.project__content > .project__technologies{
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.project__technologies > .project__technology__single{
+    margin-right: 10px;
+}
+
+.project__technologies > .project__technology__single:last-child{
+    margin-right: 10px;
+}
+
+.project__technologies > .project__technology__single > h4{
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid rgba(245, 245, 245, 0.185);
+    border-radius: 20px;
+    padding: 4px 8px;
+}
+
+.project__title{
+    padding: 8px 0 15px 5px;
+}
+
+.project__title > h3{
+    font-size: 19px;
+}
+
+.project__description{
+    padding: 0 10px;
+}
+
+.project__description > p{
+    font-size: 14px;
+    text-align: justify;
+    word-wrap: break-word;
+    letter-spacing: 0.4px;
+    line-height: 24px;
+}
+
+.project__actions{
+    width: 100%;
+    position: relative;
+}
+
+.project__actions > a > svg{
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: -40px;
+    right: 20px;
+}

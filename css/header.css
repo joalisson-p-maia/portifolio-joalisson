@@ -1,0 +1,42 @@
+
+/*header*/
+header{
+    z-index: 999;
+    padding: 40px 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header > h1{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+header > h1 > span{
+    color: rgb(88, 88, 243);
+    font-weight: 600;
+}
+
+.header__links > ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.header__links li{
+    list-style-type: none;
+    z-index: 999;
+    margin-left: 20px;
+}
+
+.header__links a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    transition: all 0.4s ease-in-out;
+}
+
+.header__links a:hover{
+    color: #d6d6d67e;
+}
