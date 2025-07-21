@@ -1,5 +1,46 @@
 footer{
     margin-top: 200px;
-    height: 300px;
+    height: 150px;
     background: linear-gradient(to bottom, #0e012200, #020e24d0);
+    padding: 0 120px;
+}
+
+footer > h2{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+footer > h2 > span{
+    color: rgb(88, 88, 243);
+}
+
+.footer__socials__text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer__socials{
+    margin: 20px 0;
+}
+
+.footer__socials > a{
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+.footer__socials > a:nth-last-of-type{
+    margin-right: 0;
+}
+
+.footer__socials > a > svg{
+    width: 32px;
+    height: 32px;
+}
+
+.footer__text{
+    width: 300px;
+    text-align: justify;
+    position: relative;
+    top: -20px;
 }
