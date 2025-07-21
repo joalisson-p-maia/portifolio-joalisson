@@ -250,6 +250,7 @@
 .about__me__main__content{
     width: 900px;
     max-width: 100%;
+    z-index: 999;
 }
 
 .about__me__main__content > h2{
