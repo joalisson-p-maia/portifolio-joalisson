@@ -1,0 +1,46 @@
+.experiences{
+    margin-top: 180px;
+}
+
+.experiences > h2{
+    font-size: 20px;
+    margin-bottom: 60px;
+    position: relative;
+    z-index: 999;
+}
+
+.experiencies__wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+
+.experiences__line{
+    height: 80vh;
+    width: 3px;
+    background-color: #f8f8f865;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.experiences__left > div > h3,
+.experiences__right > div > h3{
+    padding-top: 10px;
+}
+
+.experiences__left > div > h4:nth-of-type(2),
+.experiences__right > div > h4:nth-of-type(2){
+    padding: 20px 0;
+}
+
+.experiences__left > div > p,
+.experiences__right > div > p{
+    width: 400px;
+    text-align: justify;
+}
+
+.experiences__right > div:nth-child(1){
+    position: relative;
+    top: 280px;
+}
