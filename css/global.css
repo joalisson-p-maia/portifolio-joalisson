@@ -20,3 +20,33 @@ body {
 main{
     padding: 0 150px;
 }
+
+@media (width < 1300px) {
+    main{
+        padding: 0 120px;
+    }
+}
+
+@media (width < 970px) {
+    main{
+        padding: 0 90px;
+    }
+}
+
+@media (width < 830px) {
+    main{
+        padding: 0 50px;
+    }
+}
+
+@media (width < 680px) {
+    main{
+        padding: 0 30px;
+    }
+}
+
+@media (width < 480px) {
+    main{
+        padding: 0 10px;
+    }
+}
