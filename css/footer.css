@@ -44,3 +44,54 @@ footer > h2 > span{
     position: relative;
     top: -20px;
 }
+
+@media (width < 890px) {
+    footer{
+        padding: 0 60px;
+    }
+}
+
+@media (width < 680px) {
+    footer{
+        padding: 0 20px;
+    }
+}
+
+@media (width < 570px) {
+    footer{
+        height: 220px;
+        margin-top: 150px;
+    }
+    
+    footer > h2{
+        font-size: 14px;
+    }
+
+    .footer__socials > a > svg{
+        width: 26px;
+        height: 26px;
+    }
+
+    .footer__text{
+        width: 250px;
+        font-size: 14px;
+    }
+}
+
+@media (width < 480px) {    
+    footer > h2{
+        text-align: center;
+    }
+
+    .footer__socials__text{
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer__socials{
+        padding-bottom: 20px;
+    }
+}
