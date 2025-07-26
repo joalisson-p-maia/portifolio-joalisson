@@ -1,0 +1,58 @@
+.manchas{
+    position: absolute;
+    z-index: 0;
+}
+
+.manchas-1{
+    position: fixed;
+    top: 200px;
+    left: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.manchas-2{
+    position: fixed;
+    top: 0px;
+    right: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.manchas-3{
+    position: fixed;
+    bottom: 20px;
+    right: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mancha{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    filter: blur(35px);
+}
+
+.mancha-blue{
+    background-color: blue;
+    position: relative;
+    left: 120px;
+    top: 35px;
+}
+
+.mancha-blue-green{
+    position: relative;
+    top: -35px;
+    left: 25px;
+    background-color: rgb(14, 128, 221);
+}
+
+.mancha-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.mancha-pure-blue{
+    background-color: rgb(32, 50, 214);
+}
