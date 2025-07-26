@@ -1,4 +1,3 @@
-
 /*header*/
 header{
     z-index: 999;
@@ -17,6 +16,10 @@ header > h1{
 header > h1 > span{
     color: rgb(88, 88, 243);
     font-weight: 600;
+}
+
+header > button[type=button].menu__mobile{
+    display: none;
 }
 
 .header__links > ul{
@@ -39,4 +42,33 @@ header > h1 > span{
 
 .header__links a:hover{
     color: #d6d6d67e;
+}
+
+/*media queries*/
+@media (width < 1300px){
+    header{
+        padding: 40px 120px;
+    }
+}
+
+@media (width < 970px){
+    header{
+        padding: 40px 90px;
+    }
+}
+
+@media (width < 830px){
+    header{
+        padding: 40px 50px;
+    }
+}
+
+@media (width < 680px){
+    header{
+        padding: 40px 30px;
+    }
+
+    .header__links > ul{
+        display: none;
+    }
 }
