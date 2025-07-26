@@ -286,3 +286,455 @@
     justify-content: space-around;
     transition: all 0.4s ease-in-out;
 }
+
+/*media queries*/
+@media (width < 1670px) {
+    .about__me__main__content{
+        width: 800px;
+    }
+}
+
+@media (width < 1560px) {
+    .about__me__main__content{
+        width: 700px;
+    }
+}
+
+@media (width < 1470px) {
+    .about__me__main__content{
+        width: 600px;
+    }
+}
+
+@media (width < 1370px) {
+    /*about me text*/
+    .about__me__text{
+        width: 380px;
+    }
+
+    .about__me__text > h2{
+        font-size: 32px;
+    }
+
+    /*about me code*/    
+    .about__me__code__box{
+        width: 480px;
+        height: 250px;
+    }
+
+    .about__me__code__body__content > h3{
+        font-size: 10px;
+        margin-top: 2px;
+    }
+
+    /*about__me__code__body__docs*/
+    .about__me__code__body__docs{
+        width: 350px;
+        height: 120px;
+        right: -120px;
+        bottom: -80px;
+        padding: 10px;
+    }
+
+    .about__me__code__body__docs > p{
+        font-size: 11px;
+    }
+
+    .about__me__code__body__docs > p:nth-child(2){
+        line-height: 16px;
+    }
+
+    /*about me main*/
+    .about__me__main__content{
+        width: 500px;
+    }
+    
+    .about__me__main__content > h2{
+        font-size: 19px;
+        font-weight: 800;
+    }
+
+    .about__me__main__content > h3{
+        padding: 30px 0 20px 0;
+        font-size: 16px;
+    }
+
+    .about__me__main__content > p{
+        font-size: 14px;
+    }
+}
+
+@media (width < 1300px){
+    /*about__me__code__body__docs*/
+    .about__me__code__body__docs{
+        width: 320px;
+        right: -80px;
+    }   
+}
+
+@media (width < 1200px) {
+    /*about me main*/
+    .about__me__main{
+        margin-top: 250px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about__me__main__content{
+        margin-top: 50px;
+        width: 900px;
+    }
+
+    .about__me__main__content > h3{
+        font-size: 18px;
+    }
+}
+
+@media (width < 1150px){
+    .about__me__code__header__balls > div{
+        width: 10px;
+        height: 10px;
+    }
+
+    .about__me__code__header__line{
+        width: 300px;
+        margin: 8px 10px;
+    }
+
+    /*about me text*/
+    .about__me__text{
+        width: 320px;
+    }
+
+    .about__me__text > h2{
+        font-size: 27px;
+    }
+
+    /*about me code*/    
+    .about__me__code__box{
+        width: 400px;
+        height: 230px;
+    }
+
+    .about__me__code__body__content > h3{
+        font-size: 9px;
+        margin-top: 3px;
+    }
+
+    /*about__me__code__body__docs*/
+    .about__me__code__body__docs{
+        bottom: -100px;
+    }
+
+    .about__me__code__body__docs > p{
+        font-size: 10px;
+    }
+}
+
+@media (width < 930px) {
+    .about__me__initial{
+        flex-direction: column;
+    }
+
+    /*about__me__text*/
+    .about__me__text{
+        margin: 0 auto;
+        width: 470px;
+    }
+
+    .about__me__text > h2{
+        font-size: 42px;
+    }
+
+    /*about__me__code*/
+    .about__me__code{
+        margin-top: 120px;
+    }
+
+    .about__me__code__box{
+        width: 600px;
+        max-width: 95%;
+        height: 300px;
+    }
+
+    .about__me__code__header__balls > div{
+        width: 13px;
+        height: 13px;
+    }
+
+    .about__me__code__header__line {
+        width: 500px;
+        max-width: 95%;
+        margin: 15px 10px;
+    }
+
+    .about__me__code__body__content > h3 {
+        font-size: 13px;
+        margin-top: 2px;
+    }
+
+    /*.about__me__code__body__docs*/
+    .about__me__code__body__docs {
+        width: 400px;
+        max-width: 95%;
+        height: 165px;
+        right: -60px;
+        bottom: -90px;
+        padding: 20px 10px;
+    }
+
+    .about__me__code__body__docs > p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+}
+
+@media (width < 830px) {
+    /*about__me__text*/
+    .about__me__text{
+        width: 420px;
+    }
+
+    .about__me__text > h2{
+        font-size: 36px;
+    }
+
+    /*about__me__code*/
+    .about__me__code__box{
+        width: 500px;
+        max-width: 95%;
+    }
+
+    .about__me__code__header__balls > div{
+        width: 12px;
+        height: 12px;
+    }
+
+    .about__me__code__header__line {
+        width: 400px;
+    }
+
+    .about__me__code__body__content > h3 {
+        font-size: 12px;
+        margin-top: 3px;
+    }
+
+    /*.about__me__code__body__docs*/
+    .about__me__code__body__docs {
+        width: 300px;
+        right: 0px;
+        padding: 10px;
+    }
+
+    .about__me__code__body__docs > p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media (width < 650px) {
+    /*about__me__text*/
+    .about__me__text{
+        width: 320px;
+    }
+
+    .about__me__text > h2{
+        font-size: 27px;
+    }
+
+    /*about__me__code*/
+    .about__me__code__box{
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .about__me__code__header__balls > div{
+        width: 11px;
+        height: 11px;
+    }
+
+    .about__me__code__header__line {
+        width: 350px;
+    }
+
+    /*.about__me__code__body__docs*/
+    .about__me__code__body__docs {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -185px;
+    }
+}
+
+@media (width < 480px) {
+    /*about__me__text*/
+    .about__me__text{
+        width: 280px;
+    }
+
+    .about__me__text > h2{
+        font-size: 24px;
+    }
+
+    /*about__me__code*/
+    .about__me__code__box{
+        height: 275px;
+    }
+
+    .about__me__code__header__balls > div{
+        width: 10px;
+        height: 10px;
+    }
+
+    .about__me__code__header__line {
+        width: 250px;
+    }
+
+    .about__me__code__body__content > h3 {
+        font-size: 10px;
+        margin-top: 3px;
+    }
+
+    /*.about__me__code__body__docs*/
+    .about__me__code__body__docs {
+        height: 150px;
+    }
+
+    .about__me__code__body__docs > p {
+        font-size: 11px;
+        line-height: 20px;
+    }
+
+    /*about me main*/
+    .about__me__main{
+        padding: 0 20px;
+    }
+
+    .about__me__main__content{
+        margin-top: 50px;
+        width: 900px;
+    }
+
+    .about__me__main > aside{
+        width: 400px;
+        max-width: 98%;
+    }
+
+    .about__me__main__box{
+        max-width: 100%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media (width < 390px) {
+    /*about__me__text*/
+    .about__me__text{
+        width: 240px;
+    }
+
+    .about__me__text > h2{
+        font-size: 21px;
+    }
+
+    /*about__me__code*/
+    .about__me__code__header__balls > div{
+        width: 9px;
+        height: 9px;
+    }
+
+    .about__me__code__header__line {
+        width: 200px;
+    }
+
+    .about__me__code__body__content > h3 {
+        font-size:10px;
+        margin-top: 3px;
+    }
+
+    /*.about__me__code__body__docs*/
+    .about__me__code__body__docs {
+        height: 150px;
+    }
+
+    .about__me__code__body__docs > p {
+        font-size: 11px;
+        line-height: 20px;
+    }
+}
+
+@media (width < 370px) {
+    /*about me main*/
+    .about__me__main{
+        padding: 0 10px;
+    }
+
+    .about__me__main > aside{
+        max-width: 99%;
+    }
+
+    .about__me__main__box > h3{
+        font-size: 10px;
+    }
+
+    .about__me__main__box > picture{
+        width: 160px;
+        height: 160px;
+        bottom: 40px;
+    }
+
+    .about__me__main__box > picture > img{
+        width: 160px;
+        height: 160px;
+    }
+}
+
+@media (width < 340px){
+    /*about me code*/
+    .about__me__code__box{
+        height: 245px;
+    }   
+
+    .about__me__code__body__content > h3 {
+        font-size: 9px;
+    }
+
+    /*.about__me__code__body__docs*/
+    .about__me__code__body__docs {
+        height: 140px;
+    }
+
+    .about__me__code__body__docs > p {
+        font-size: 9px;
+    }
+
+    /*about me main*/
+    .about__me__main{
+        padding: 0;
+    }
+
+    .about__me__main__content > h2{
+        font-size: 16px;
+    }
+
+    .about__me__main__content > h3{
+        padding: 30px 0 25px 0;
+        font-size: 14px;
+    }
+
+    .about__me__main__content > p{
+        font-size: 12px;
+    }
+
+    .about__me__main__content > nav{
+        width: 170px;
+        margin-top: 30px;
+    }
+
+    .about__me__main__content > nav > a{
+        min-width: 110px;
+        height: 35px;
+        font-size: 14px;
+    }
+}
