@@ -52,7 +52,6 @@
 
 @media (width < 480px) {   
   .habilities > h2{
-    padding-left: 10px;
     font-size: 21px;
   } 
 
@@ -63,5 +62,12 @@
   .habilities__single svg {
     width: 40px;
     height: 40px; 
+  }
+}
+
+@media (width < 340px) {
+  .habilities > h2{
+    font-size: 16px;
+    font-weight: 800;
   }
 }

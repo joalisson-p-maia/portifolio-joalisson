@@ -129,6 +129,11 @@
 }
 
 @media (width < 340px) {
+    .projects > h2{
+        font-size: 16px;
+        font-weight: 800;
+    }
+
     .project__title > h3{
         font-size: 17px;
     }
