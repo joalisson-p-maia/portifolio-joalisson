@@ -49,3 +49,19 @@
   height: 50px; 
   margin: 60px 10px;
 }
+
+@media (width < 480px) {   
+  .habilities > h2{
+    padding-left: 10px;
+    font-size: 21px;
+  } 
+
+  .habilities__single{
+    margin-right: 25px;
+  }
+
+  .habilities__single svg {
+    width: 40px;
+    height: 40px; 
+  }
+}
