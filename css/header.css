@@ -1,6 +1,6 @@
 /*header*/
 header{
-    z-index: 999;
+    z-index: 900;
     padding: 40px 150px;
     display: flex;
     flex-direction: row;
@@ -18,10 +18,75 @@ header > h1 > span{
     font-weight: 600;
 }
 
-header > button[type=button].menu__mobile{
+/*men mobile*/
+div.menu__mobile{
     display: none;
 }
 
+div.menu__mobile.is__open__menu__mobile{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.9);
+    z-index: 999;
+}
+
+.menu__btn {
+    position: relative;
+    width: 35px;
+    height: 30px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    z-index: 2;
+}
+
+div.menu__btn.is__menu__btn__open__menu__mobile{
+    position: fixed;
+    top: 40px;
+    right: 40px;
+    z-index: 999;
+}
+
+.menu__btn div {
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: #f8f8f8;
+    transition: 0.3s ease;
+    border-radius: 2px;
+}
+
+.menu__btn div:nth-child(1) {
+    top: 0;
+}
+
+.menu__btn div:nth-child(2) {
+    top: 10px;
+    left: 8px;
+}
+
+.menu__btn div:nth-child(3) {
+    top: 20px;
+}
+
+/* Quando clicado */
+.menu__btn.active div:nth-child(1) {
+    transform: rotate(45deg);
+    top: 13px;
+}
+
+.menu__btn.active div:nth-child(2) {
+    opacity: 0;
+}
+
+.menu__btn.active div:nth-child(3) {
+    transform: rotate(-45deg);
+    top: 13px;
+}
+
+/*links*/
 .header__links > ul{
     display: flex;
     flex-direction: row;
@@ -29,8 +94,9 @@ header > button[type=button].menu__mobile{
 
 .header__links li{
     list-style-type: none;
-    z-index: 999;
+    z-index: 900;
     margin-left: 20px;
+    cursor: pointer;
 }
 
 .header__links a{
@@ -42,6 +108,31 @@ header > button[type=button].menu__mobile{
 
 .header__links a:hover{
     color: #d6d6d67e;
+}
+
+.menu__mobile__links{
+    display: none;
+}
+
+.menu__mobile__links.active{
+    display: flex;
+}
+
+.menu__mobile__links.active > ul{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.menu__mobile__links.active li{
+    font-size: 24px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    list-style-type: none;
+    text-align: center;
 }
 
 /*media queries*/
@@ -70,5 +161,9 @@ header > button[type=button].menu__mobile{
 
     .header__links > ul{
         display: none;
+    }
+
+    div.menu__mobile{
+        display: flex;
     }
 }
