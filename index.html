@@ -48,29 +48,51 @@
         <nav class="header__links">
             <ul>
                 <li>
-                    <a href="">Home</a>
+                    <a id="btn_about">Sobre</a>
                 </li>
                 <li>
-                    <a href="">Sobre</a>
+                    <a id="btn_habilities">Habilidades</a>
                 </li>
                 <li>
-                    <a href="">Habilidades</a>
+                    <a id="btn_projects">Projetos</a>
                 </li>
                 <li>
-                    <a href="">Projetos</a>
+                    <a id="btn_experiences">Experiências</a>
                 </li>
             </ul>
         </nav><!--header__links-->
 
-        <button type="button" class="menu__mobile">
-            <!--TODO: ícone menu hamburguer-->
-        </button><!--menu__mobile-->
+
+        <div class="menu__mobile" id="menu_mobile">
+            <div class="menu__btn" id="menu_btn">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            
+            <nav class="menu__mobile__links" id="menu_mobile_links">
+                <ul>
+                    <li>
+                        <a id="btn_mobile_about">Sobre</a>
+                    </li>
+                    <li>
+                        <a id="btn_mobile_habilities">Habilidades</a>
+                    </li>
+                    <li>
+                        <a id="btn_mobile_projects">Projetos</a>
+                    </li>
+                    <li>
+                        <a id="btn_mobile_experiences">Experiências</a>
+                    </li>
+                </ul>
+            </nav><!--menu__mobile__links-->
+        </div><!--menu__mobile-->
     </header>
 
     <main>
         <section class="about__me">
             <div class="about__me__initial">
-                <div class="about__me__text">
+                <div class="about__me__text" id="section_about">
                     <h2>Olá, eu sou o <span>{Joca}</span>. Um desenvolvedor Front-end | Back-end</h2>
                     
                     <nav>
@@ -180,7 +202,7 @@
             </div><!--about__me__main-->
         </section><!--about__me-->
 
-        <section class="habilities">
+        <section class="habilities" id="section_habilities">
             <h2>Habilidades</h2>
 
             <div class="habilities__slider">
@@ -405,7 +427,7 @@
             </div><!--habilities__slider-->
         </section><!--habilities-->
 
-        <section class="projects">
+        <section class="projects" id="section_projects">
            <h2>Projetos</h2>
            
            <div class="projects__wrapper">
@@ -525,7 +547,7 @@
            </div><!--projects__wrapper-->
         </section><!--projects-->
 
-        <section class="experiences">
+        <section class="experiences" id="section_experiences">
             <h2>EXPERIÊNCIAS</h2>
 
             <div class="experiencies__wrapper">
@@ -602,3 +624,4 @@
 </body>
 </html>
 
+<script src="./js/links.js" defer></script>
