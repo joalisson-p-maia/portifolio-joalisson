@@ -10,7 +10,7 @@
 
 .about__me__text{
     width: 450px;
-    z-index: 999;
+    z-index: 900;
 }
 
 .about__me__text > h2{
@@ -79,7 +79,7 @@
 
 /*about__me__code*/
 .about__me__code{
-    z-index: 999;
+    z-index: 900;
     position: relative;
 }
 
@@ -161,7 +161,7 @@
     height: 170px;
     border-radius: 3px;
     border: 1px solid #ffffff27;
-    z-index: 999;
+    z-index: 900;
     position: absolute;
     right: -60px;
     bottom: -90px;
@@ -250,7 +250,7 @@
 .about__me__main__content{
     width: 900px;
     max-width: 100%;
-    z-index: 999;
+    z-index: 900;
 }
 
 .about__me__main__content > h2{
