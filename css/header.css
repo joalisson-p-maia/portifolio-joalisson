@@ -167,3 +167,9 @@ div.menu__btn.is__menu__btn__open__menu__mobile{
         display: flex;
     }
 }
+
+@media (width < 480px) {
+    .menu__btn{
+        width: 30px;
+    }
+}
