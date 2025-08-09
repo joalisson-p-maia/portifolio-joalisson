@@ -2,11 +2,6 @@
     margin-top: 120px;
 }
 
-/*.projects > h2{
-    z-index: 999;
-    position: relative;
-}*/
-
 .projects__wrapper{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
@@ -93,9 +88,19 @@
 }
 
 /*media queries*/
+@media (width < 1170px) {
+    .project__single{
+        height: 530px;
+    }
+}
+
 @media (width < 480px) {
     .projects__wrapper{
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+
+    .project__single{
+        height: 480px;
     }
 
     .project__single > picture,
@@ -124,11 +129,51 @@
     }
 
     .project__actions > a > svg{
-        bottom: -60px;
+        bottom: -40px;
+    }
+}
+
+@media (width < 430px) {
+    .project__single{
+        height: 460px;
+    }
+
+    .project__actions > a > svg{
+        bottom: -40px;
+    }
+}
+
+@media (width < 402px) {
+    .project__single{
+        height: 470px;
+    }
+
+    .project__actions > a > svg{
+        bottom: -35px;
+    }
+}
+
+@media (width < 380px) {
+    .project__actions > a > svg{
+        bottom: -45px;
+    }
+}
+
+@media (width < 361px) {
+    .project__single{
+        height: 480px;
+    }
+
+    .project__actions > a > svg{
+        bottom: -40px;
     }
 }
 
 @media (width < 340px) {
+    .project__single{
+        height: 470px;
+    }
+
     .projects > h2{
         font-size: 16px;
         font-weight: 800;
@@ -140,5 +185,25 @@
 
     .project__description > p{
         font-size: 12px;
+    }
+}
+
+@media (width < 320px) {
+    .project__single{
+        height: 480px;
+    }
+
+    .project__actions > a > svg{
+        bottom: -35px;
+    }
+}
+
+@media (width < 290px) {
+    .project__single{
+        height: 475px;
+    }
+
+    .project__actions > a > svg{
+        bottom: -45px;
     }
 }
