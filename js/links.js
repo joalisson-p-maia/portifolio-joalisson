@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     let isOpenMenu = false;
 
+    /**btns */
     const btnAbout = document.getElementById('btn_about');
     const btnHabilities = document.getElementById('btn_habilities');
     const btnProjects = document.getElementById('btn_projects');
