@@ -5,9 +5,16 @@
     justify-content: space-between;
 }
 
-.about__me__text{
+.about__me__text {
     width: 450px;
     z-index: 900;
+}
+
+@supports (-moz-appearance: none) {
+  .about__me__text {
+    width: 500px;
+    z-index: 900;
+  }
 }
 
 .about__me__text > h2{
@@ -309,6 +316,12 @@
         width: 380px;
     }
 
+    @supports (-moz-appearance: none) {
+        .about__me__text {
+            width: 430px;
+        }
+    }
+
     .about__me__text > h2{
         font-size: 33px;
     }
@@ -403,6 +416,12 @@
         width: 320px;
     }
 
+    @supports (-moz-appearance: none) {
+        .about__me__text {
+            width: 370px;
+        }
+    }
+
     .about__me__text > h2{
         font-size: 28px;
     }
@@ -437,6 +456,12 @@
     .about__me__text{
         margin: 0 auto;
         width: 470px;
+    }
+
+    @supports (-moz-appearance: none) {
+        .about__me__text {
+            width: 520px;
+        }
     }
 
     .about__me__text > h2{
@@ -492,6 +517,12 @@
         width: 420px;
     }
 
+    @supports (-moz-appearance: none) {
+        .about__me__text {
+            width: 470px;
+        }
+    }
+
     .about__me__text > h2{
         font-size: 36px;
     }
@@ -535,6 +566,12 @@
         width: 320px;
     }
 
+    @supports (-moz-appearance: none) {
+        .about__me__text {
+            width: 370px;
+        }
+    }
+
     .about__me__text > h2{
         font-size: 28px;
     }
@@ -567,6 +604,12 @@
     /*about__me__text*/
     .about__me__text{
         width: 280px;
+    }
+
+    @supports (-moz-appearance: none) {
+        .about__me__text {
+            width: 330px;
+        }
     }
 
     .about__me__text > h2{
@@ -629,6 +672,12 @@
     /*about__me__text*/
     .about__me__text{
         width: 240px;
+    }
+
+    @supports (-moz-appearance: none) {
+        .about__me__text {
+            width: 290px;
+        }
     }
 
     .about__me__text > h2{
