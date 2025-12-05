@@ -108,6 +108,7 @@
     .project__single > picture,
     .project__single > picture > img{
         height: auto;
+        max-height: 200px;
     }
 
     .project__content{
