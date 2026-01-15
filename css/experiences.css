@@ -1,5 +1,7 @@
 .experiences{
     margin-top: 180px;
+    display: flex;
+    flex-direction: column;
 }
 
 .experiences > h2{
@@ -11,9 +13,15 @@
 
 .experiencies__wrapper{
     display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.experiencies__wrapper > div{
+    display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 140px;
+    margin-top: 30px;
 }
 
 .experiences__line{
