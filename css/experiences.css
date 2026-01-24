@@ -76,9 +76,23 @@
 }
 
 @media (width < 630px) {
+    .experiences > h2{
+        margin-bottom: 30px;
+    }
+
+    .experiences__column__one
+    .experiences__column__two,
     .experiencies__wrapper{
         display: flex;
-        flex-direction: column;        
+        flex-direction: column;
+    }
+
+    .experiencies__wrapper{
+        margin-top: 0;
+    }
+
+    .experiencies__wrapper > div {
+        flex-direction: column;
     }
 
     .experiences__line{
@@ -93,11 +107,30 @@
         max-width: 95%;
     }
 
-    .experience__left__single,
-    .experiences__right__single{
-        margin-bottom: 50px;
-        padding-bottom: 50px;
+    .experiences__column__one > .experiences__right > .experience__right__single{
+        padding: 40px 0 0 0;
+        border-top: 3px solid #f5f5f5;
+    }
+    
+    .experiences__column__two > .experiences__right > .experiences__right__single{
+        margin-bottom: 40px;
+        padding: 0 0 40px 0;
+        border-top: 3px solid #f5f5f5;
         border-bottom: 3px solid #f5f5f5;
+    }
+
+    .experiences__column__one > .experiences__left > .experience__left__single{
+        padding: 40px 0;
+        border-top: 3px solid #f5f5f5;
+        border-bottom: 3px solid #f5f5f5;
+
+    }
+
+    .experiences__column__two > .experiences__left > .experience__left_single{
+        margin-bottom: 0px; 
+        padding: 0;
+        border-top: 0;
+        border-bottom: 0;
     }
 
     .experiences__right > div:nth-child(1){
