@@ -166,6 +166,16 @@
     }
 }
 
+@media (width < 390px) {
+    .projects{
+        margin-top: 50px;
+    }
+
+    .projects__wrapper{
+        margin-top: 60px;
+    }
+}
+
 @media (width < 380px) {
     .project__actions > a > svg{
         bottom: -45px;

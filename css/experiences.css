@@ -174,9 +174,9 @@
 }
 
 @media (width < 390px){
-    .experiencies__wrapper{
-        margin-top: 60px;
-}
+    .experiences{
+        margin-top: 80px;
+    }
 
     .experience__left__single > h4 > i,
     .experience__right__single > h4 > i,

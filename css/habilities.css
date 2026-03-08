@@ -65,6 +65,12 @@
   }
 }
 
+@media (width < 390px){
+  .habilities{
+    margin-top: 100px;
+  }
+}
+
 @media (width < 340px) {
   .habilities > h2{
     font-size: 16px;
