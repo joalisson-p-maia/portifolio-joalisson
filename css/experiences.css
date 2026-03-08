@@ -6,7 +6,7 @@
 
 .experiences > h2{
     font-size: 20px;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
     position: relative;
     z-index: 900;
 }
@@ -24,7 +24,15 @@
     margin-top: 30px;
 }
 
-.experiences__line{
+.experiences__column__two > .experiences__line{
+    height: 90vh;
+    width: 3px;
+    background-color: #f8f8f865;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.experiences__column__one > .experiences__line{
     height: 80vh;
     width: 3px;
     background-color: #f8f8f865;
@@ -48,9 +56,20 @@
     text-align: justify;
 }
 
-.experiences__right > div:nth-child(1){
+.experience__left__single_atento{
     position: relative;
-    top: 280px;
+    top: -200px;
+}
+
+.experiences__right > .experience__right__single_maemtek{
+    position: relative;
+    top: 0px;
+    margin-bottom: 250px;
+}
+
+.experiences__right > .experience__right__single_enova{
+    position: relative;
+    top: 150px;
 }
 
 @media (width < 1150px){
@@ -133,8 +152,24 @@
         border-bottom: 0;
     }
 
-    .experiences__right > div:nth-child(1){
+    .experience__left__single_atento {
+        position: relative;
+        top: -50px;
+    }
+
+    .experiences__right > .experience__right__single_enova {
+        position: relative;
         top: 0px;
+    }
+
+    .experiences__right > .experience__right__single_maemtek {
+        position: relative;
+        top: 0px;
+        margin-bottom: 70px;
+    }
+
+    .experience__left__single{
+        display: none;
     }
 }
 
