@@ -26,11 +26,21 @@
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
     object-fit: cover;
+    transition: all 0.4s ease-in-out;
+}
+
+.project__single > picture > img:hover{
+    scale: 1.01;
 }
 
 .project__content{
     padding: 0 10px;
-    
+}
+
+.projects__wrapper > .project__single:first-child > .project__actions > a > svg{
+    pointer-events: none;
+    opacity: 0.6;
+    cursor: not-allowed;
 }
 
 .project__content > .project__technologies{
