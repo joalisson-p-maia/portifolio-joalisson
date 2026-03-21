@@ -9,13 +9,17 @@
 }
 
 .project__single{
-    border: 1px solid rgba(245, 245, 245, 0.185);
+    border: 3px solid rgba(245, 245, 245, 0.185);
     border-radius: 5px;
     width: 400px;
     max-width: 95%;
     height: 520px;
     margin: 0px auto 30px auto;
     position: relative;
+
+    &:hover{
+        box-shadow: -2px 1px 9px 1px #ffffff27;
+    }
 }
 
 .project__single > picture,
@@ -64,6 +68,8 @@
     border: 1px solid rgba(245, 245, 245, 0.185);
     border-radius: 20px;
     padding: 4px 8px;
+    cursor: default;
+    user-select: none;
 }
 
 .project__title{
@@ -72,6 +78,7 @@
 
 .project__title > h3{
     font-size: 19px;
+    user-select: none;
 }
 
 .project__description{
@@ -84,6 +91,7 @@
     word-wrap: break-word;
     letter-spacing: 0.4px;
     line-height: 24px;
+    user-select: none;
 }
 
 .project__actions{

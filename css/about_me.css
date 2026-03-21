@@ -94,6 +94,7 @@
     border: 1px solid #ffffff4b;
     z-index: 500;
     background-color: rgba(36, 34, 34, 0.4);
+    box-shadow: 1px 1px 9px 1px #ffffff27;
 }
 
 .about__me__code__header__balls,
@@ -109,21 +110,37 @@
     border-radius: 50%;
     background-color: rgba(243, 238, 238, 0.829);
     margin-left: 10px;
+    transition: all 0.4s ease-in-out;
 }
 
 .about__me__code__header__balls > .about__me__code__header__ball__red,
 .about__me__main__balls > .about__me__main__ball__red{
     background-color: rgba(255, 0, 0, 0.726);
+    cursor: pointer;
+
+    &:hover{
+        background-color: rgba(255, 0, 0, 0.9);
+    }
 }
 
 .about__me__code__header__balls > .about__me__code__header__ball__yellow,
 .about__me__main__balls > .about__me__main__ball__yellow{
     background-color: rgba(225, 240, 12, 0.795);
+    cursor: pointer;
+
+    &:hover{
+        background-color: rgba(225, 240, 12, 0.95);
+    }
 }
 
 .about__me__code__header__balls > .about__me__code__header__ball__green,
 .about__me__main__balls > .about__me__main__ball__green{
     background-color: rgba(12, 240, 12, 0.596);
+    cursor: pointer;
+
+    &:hover{
+        background-color: rgba(12, 240, 12, 0.9);
+    }
 }
 
 .about__me__code__header__line{
@@ -162,7 +179,7 @@
 /*about__me__code__body__docs*/
 .about__me__code__body__docs{
     width: 300px;
-    height: 170px;
+    height: 155px;
     border-radius: 3px;
     border: 1px solid #ffffff27;
     z-index: 900;
@@ -171,6 +188,7 @@
     bottom: -90px;
     background-color: rgb(36, 34, 34);
     padding: 20px 10px;
+    box-shadow: 1px 1px 9px 1px #ffffff27;
 }
 
 .about__me__code__body__docs > p{
@@ -209,6 +227,7 @@
     z-index: 500;
     background-color: rgba(10, 16, 36, 0.3);
     position: relative;
+    box-shadow: 1px 1px 9px 1px #ffffff27;
 }
 
 .about__me__main__balls > div{
@@ -340,7 +359,7 @@
     /*about__me__code__body__docs*/
     .about__me__code__body__docs{
         width: 350px;
-        height: 120px;
+        height: 105px;
         right: -120px;
         bottom: -80px;
         padding: 10px;
@@ -499,7 +518,7 @@
     .about__me__code__body__docs {
         width: 400px;
         max-width: 95%;
-        height: 165px;
+        height: 150px;
         right: -60px;
         bottom: -90px;
         padding: 20px 10px;
@@ -637,7 +656,7 @@
 
     /*.about__me__code__body__docs*/
     .about__me__code__body__docs {
-        height: 150px;
+        height: 135px;
     }
 
     .about__me__code__body__docs > p {
@@ -701,7 +720,7 @@
 
     /*.about__me__code__body__docs*/
     .about__me__code__body__docs {
-        height: 150px;
+        height: 135px;
     }
 
     .about__me__code__body__docs > p {
@@ -748,7 +767,7 @@
 
     /*.about__me__code__body__docs*/
     .about__me__code__body__docs {
-        height: 140px;
+        height: 125px;
     }
 
     .about__me__code__body__docs > p {

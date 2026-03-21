@@ -21,6 +21,10 @@
   font-weight: 800;
 }
 
+.habilities__slider{
+  border-radius: 15px;
+}
+
 .habilities__wrapper{
   display: flex;
   flex-direction: row;
@@ -28,6 +32,10 @@
   align-items: center;
   width: max-content;
   animation: scroll_habilities 30s linear infinite;
+  background-color: rgb(240, 240, 246);
+  height: 120px;
+  margin-top: 30px;
+  border-radius: 30px;
 }
 
 .habilities__single{
