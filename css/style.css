@@ -298,6 +298,29 @@ body::before{
     box-shadow: 0 10px 26px -8px rgba(37,211,102,.55);
 }
 
+@media (width < 490px){ 
+    .btn-whatsapp{ 
+        padding: 14px 20px;
+        font-size: .80rem; 
+    } 
+
+    .btn-whatsapp svg{ 
+        display: none; 
+    }
+}
+
+@media (width < 370px){ 
+    .btn-whatsapp{ 
+        font-size: .70rem; 
+    } 
+}
+
+@media (width < 325px){ 
+    .btn-whatsapp{ 
+        font-size: .60rem; 
+    } 
+}
+
 .btn-whatsapp:hover{ 
     transform: translateY(-2px); 
     box-shadow: 0 16px 32px -8px rgba(37,211,102,.7); 
@@ -313,7 +336,7 @@ body::before{
     margin-right: 26px; 
 }
 
-@media (width < 970px){
+@media (width < 1230px){
     .btn-header{ 
         display: none; 
     } 
@@ -340,6 +363,7 @@ body::before{
 .header-inner{ 
     display: flex; 
     align-items: center; 
+    justify-content: space-between;
     gap: 40px; 
 }
 
@@ -393,7 +417,7 @@ body::before{
     color: var(--violet-soft); 
 }
 
-@media (width < 970px){ 
+@media (width < 1230px){ 
     .main-nav{ 
         display: none; 
     } 
@@ -430,7 +454,7 @@ body::before{
     transform: translateY(-7px) rotate(-45deg); 
 }
 
-@media (width < 970px){ 
+@media (width < 1230px){ 
     .menu-toggle{ 
         display: flex; 
     } 
@@ -1003,6 +1027,27 @@ body::before{
     gap: 26px;
 }
 
+@media (max-width: 360px) {
+    .projects-grid{
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 20px;
+    }
+}
+
+@media (max-width: 320px) {
+    .projects-grid{
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 15px;
+    }
+}
+
+@media (max-width: 320px) {
+    .projects-grid{
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: 10px;
+    }
+}
+
 .project-card{
     background: var(--bg-panel);
     border: 1px solid var(--border);
@@ -1191,6 +1236,18 @@ body::before{
     } 
 }
 
+@media (width < 475px) {
+    .budget-grid{ 
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); 
+    }
+}
+
+@media (width < 320px) {
+    .budget-grid{ 
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); 
+    }
+}
+
 .budget-points{ 
     list-style: none; 
     margin: 26px 0 0; 
@@ -1218,7 +1275,20 @@ body::before{
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
   padding: 34px;
-  display: flex; flex-direction: column; gap: 20px;
+  display: flex; flex-direction: column; 
+  gap: 20px;
+}
+
+@media (width < 400px){
+    .budget-form{ 
+        padding: 26px; 
+    } 
+}
+
+@media (width < 300px){
+    .budget-form{ 
+        padding: 20px; 
+    } 
 }
 
 .form-row{ 
@@ -1258,6 +1328,33 @@ body::before{
   border-radius: var(--radius-sm);
   padding: 13px 14px;
   transition: border-color .25s ease, box-shadow .25s ease;
+  box-sizing: border-box; 
+  width: 100%;
+}
+
+@media (width < 490px){ 
+    .budget-form input, 
+    .budget-form select, 
+    .budget-form textarea{ 
+        font-size: .80rem; 
+    } 
+}
+
+@media (width < 400px){
+    .budget-form input, 
+    .budget-form select, 
+    .budget-form textarea{ 
+        max-width: 320px;
+         
+    } 
+}
+
+@media (width < 370px){ 
+    .budget-form input, 
+    .budget-form select, 
+    .budget-form textarea{ 
+        font-size: .70rem; 
+    } 
 }
 
 .budget-form input:focus, 
