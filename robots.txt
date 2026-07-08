@@ -1,0 +1,5 @@
+User-agent: *
+
+Allow: /
+
+Sitemap: https://portifolio-joalisson.vercel.app/sitemap.xml
