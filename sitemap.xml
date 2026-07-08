@@ -14,4 +14,23 @@ http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
         <priority>1.0</priority>
     </url>
 
+    <url>
+        <loc>https://portifolio-joalisson.vercel.app/#sobre</loc>
+    </url>
+
+    <url>
+        <loc>https://portifolio-joalisson.vercel.app/#projetos</loc>
+    </url>
+
+    <url>
+        <loc>https://portifolio-joalisson.vercel.app/#habilidades</loc>
+    </url>
+
+    <url>
+        <loc>https://portifolio-joalisson.vercel.app/#experiencias</loc>
+    </url>
+
+    <url>
+        <loc>https://portifolio-joalisson.vercel.app/#orcamento</loc>
+    </url>
 </urlset>
