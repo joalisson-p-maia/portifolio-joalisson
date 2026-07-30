@@ -423,6 +423,30 @@ const revealObserver = (() => {
       link: 'https://github.com/joalisson-p-maia/sistema-rh-api-spring',
       img: placeholderImg('Backend • API Sistema de RH', '#dc8719', '#3f23af'),
     },
+    {
+      title: 'Site Conceito Rubi Condimentos',
+      description: 'Conceito desenvolvido para apresentação a empresa Rubi Condimentos, site de alta peformance e personalização exclusiva.',
+      tags: ['Angular Framework', 'SCSS', 'TypeScript'],
+      category: 'frontend',
+      link: 'https://rubicondimentos.vercel.app',
+      img: placeholderImg('Site • Rubi Condimentos', '#7a5b12', '#3f23af'),
+    },
+    {
+      title: 'Site Conceito Salão Paixão',
+      description: 'Conceito desenvolvido para apresentação a empresa Salão Paixão, site de alta peformance e personalização exclusiva.',
+      tags: ['Angular Framework', 'SCSS', 'TypeScript'],
+      category: 'frontend',
+      link: 'https://salaopaixao.vercel.app',
+      img: placeholderImg('Site • Salão Paixão', '#c01818', '#3f23af'),
+    },
+    {
+      title: 'Site Conceito Pelos & Penas',
+      description: 'Conceito desenvolvido para apresentação a empresa Pelos & Penas, site de alta peformance e personalização exclusiva.',
+      tags: ['Angular Framework', 'SCSS', 'TypeScript'],
+      category: 'frontend',
+      link: 'https://pelosepenas.vercel.app',
+      img: placeholderImg('Site • Pelos & Penas', '#21dbc9', '#3f23af'),
+    }
   ];
 
   const linkArrowSvg = `
