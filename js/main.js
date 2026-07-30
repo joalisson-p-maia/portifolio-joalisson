@@ -437,15 +437,24 @@ const revealObserver = (() => {
       tags: ['Angular Framework', 'SCSS', 'TypeScript'],
       category: 'frontend',
       link: 'https://salaopaixao.vercel.app',
-      img: placeholderImg('Site • Salão Paixão', '#c01818', '#3f23af'),
+      img: placeholderImg('Site • Rubi Condimentos', '#7a5b12', '#3f23af'),
     },
     {
       title: 'Site Conceito Pelos & Penas',
-      description: 'Conceito desenvolvido para apresentação a empresa Pelos & Penas, site de alta peformance e personalização exclusiva.',
+      description: 'Conceito desenvolvido para apresentação a empresa Pelos e Penas, site de alta peformance e personalização exclusiva.',
       tags: ['Angular Framework', 'SCSS', 'TypeScript'],
       category: 'frontend',
       link: 'https://pelosepenas.vercel.app',
-      img: placeholderImg('Site • Pelos & Penas', '#21dbc9', '#3f23af'),
+      img: placeholderImg('Site • Pelos e Penas', '#7a5b12', '#3f23af'),
+    },
+    ,
+    {
+      title: 'Site Conceito Mundo da Música',
+      description: 'Conceito desenvolvido para apresentação a empresa Mundo da Música, site de alta peformance e personalização exclusiva.',
+      tags: ['Angular Framework', 'SCSS', 'TypeScript'],
+      category: 'frontend',
+      link: 'https://mundo-da-musica.vercel.app',
+      img: placeholderImg('Site • Mundo da Música', '#7a5b12', '#3f23af'),
     }
   ];
 
