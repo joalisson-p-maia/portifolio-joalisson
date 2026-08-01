@@ -437,7 +437,7 @@ const revealObserver = (() => {
       tags: ['Angular Framework', 'SCSS', 'TypeScript'],
       category: 'frontend',
       link: 'https://salaopaixao.vercel.app',
-      img: placeholderImg('Site • Rubi Condimentos', '#7a5b12', '#3f23af'),
+      img: placeholderImg('Site • Salão Paixão', '#7a5b12', '#3f23af'),
     },
     {
       title: 'Site Conceito Pelos & Penas',
