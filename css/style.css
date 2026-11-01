@@ -947,6 +947,7 @@ body::before{
     overflow: hidden;
     -webkit-mask-image: linear-gradient(90deg, transparent, black 8%, black 92%, transparent);
     mask-image: linear-gradient(90deg, transparent, black 8%, black 92%, transparent);
+    padding: 10px;
 }
 
 .marquee-track{
@@ -973,6 +974,8 @@ body::before{
 
 .marquee:hover .marquee-track{ 
     animation-play-state: paused; 
+    position: relative;
+    top: -2px;
 }
 
 .skill-chip{
@@ -986,6 +989,7 @@ body::before{
     font-size: .88rem;
     color: var(--muted);
     transition: border-color .3s ease, transform .3s ease, color .3s ease;
+    height: 45px;
 }
 
 .skill-chip:hover{ 
@@ -1188,6 +1192,7 @@ body::before{
     border-radius: var(--radius-md);
     padding: 26px 28px;
     transition: border-color .3s ease, transform .3s ease;
+    user-select: none;
 }
 
 .timeline-card:hover{ 
