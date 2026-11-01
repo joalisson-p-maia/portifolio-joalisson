@@ -311,8 +311,8 @@ const revealObserver = (() => {
         stroke-linecap="round" stroke-linejoin="round"/>
     </svg>`;
 
-  const skillsRowA = ['HTML5', 'CSS3 / Sass', 'JavaScript', 'Angular', 'Node.js', 'JSON / REST'];
-  const skillsRowB = ['Java', 'Spring Boot', 'SQL (Oracle)', 'PostgreSQL', 'Git', 'Python'];
+  const skillsRowA = ['HTML5', 'CSS3', 'SASS', 'JavaScript', 'Angular Framework', 'Node.js', 'JSON / REST', 'CloudFlare', 'Docker', 'React', 'Insomnia'];
+  const skillsRowB = ['Java', 'Spring Boot', 'SQL', 'PostgreSQL', 'Git', 'Python', 'C++', 'PHP', 'Laravel', 'PowerApps', 'Redis', 'React Native'];
 
   const buildChips = (list) => list.map((name) => `
     <div class="skill-chip">${iconSvg}<span>${name}</span></div>
@@ -355,15 +355,15 @@ const revealObserver = (() => {
       title: 'Aplicativo Gestão de Estoque',
       description: 'Aplicativo PowerApps para controle de estoque, permite mapear produtos de inventário com local na empresa, e sem local, visualizar e criar saídas e entradas de materiais, o aplicativo conta com gestao de usuários, autenticação com usuário e senha, e integrado com o banco de dados Dataverse da próprio Microsoft Power Platform, além do Fluxo que permite salvar backup do banco a cada 3 dias no Google Drive como Google Planilhas.',
       tags: ['PowerApps', 'Dataverse'],
-      category: 'fullstack',
+      category: 'apps',
       link: '#',
-      img: placeholderImg('Full Stack • Gestão de Estoque', '#4C3B8F', '#201638'),
+      img: placeholderImg('Aplicativo • Gestão de Estoque', '#4C3B8F', '#201638'),
     },
     {
       title: 'Eclypse A Lenda do Caos (Site)',
-      description: 'Site criado para o jogo em que estou desenvolvendo, um jogo TCG(Tracking Card Games) no modelo 2.5D, jogo visa trazer criaturas místicas e folclóricas não somente do Brasil, mas de todo mundo a cada temporada, podendo criar diversos tipos de decks, e enfrentar outros jogadores através de nossos torneios.',
-      tags: ['Angular Framework', 'SCSS', 'TypeScript', 'SpringBoot', 'PostgreSQL'],
-      category: 'fullstack',
+      description: 'Site criado para o jogo em que estou desenvolvendo, um jogo TCG(Tracking Card Games) no modelo Web, jogo visa trazer criaturas místicas e folclóricas não somente do Brasil, mas de todo mundo a cada temporada, podendo criar diversos tipos de decks, e enfrentar outros jogadores através de nossos torneios.',
+      tags: ['Angular Framework', 'SCSS', 'TypeScript', 'Laravel', 'PostgreSQL'],
+      category: 'em_desenvolvimento',
       link: 'https://eclypse-a-lenda-do-caos.onrender.com/',
       img: placeholderImg('Full Stack • Eclypse', '#4C3B8F', '#201638'),
     },
@@ -401,9 +401,9 @@ const revealObserver = (() => {
     },
     {
       title: 'Eclypse A Lenda do Caos (Jogo)',
-      description: 'Desenvolvimento de um jogo TCG em 2.5D, com foco em partidas rápidas e emocionantes, com deck composto por 20 cartas, onde suas cartas tem habilidades em conjunto, se possuir mais de 2 cartas da mesma região, você ganha bônus de poder, porém se seu inimigo também tiver cartas da mesma região que você, ele também ganha bônus, então o jogo é de estratégia e rapidez, vence quem tiver mais pontos até do tempo acabar ou zerar a vida do inimigo.',
-      tags: ['Unity', 'C#', 'SpringBoot', 'PostgreSQL'],
-      category: 'outros',
+      description: 'Desenvolvimento de um jogo TCG, com foco em partidas rápidas e emocionantes, com deck composto por 20 cartas, onde suas cartas tem habilidades em conjunto, se possuir mais de 2 cartas da mesma região, você ganha bônus de poder, porém se seu inimigo também tiver cartas da mesma região que você, ele também ganha bônus, então o jogo é de estratégia e rapidez, vence quem tiver mais pontos até do tempo acabar ou zerar a vida do inimigo.',
+      tags: ['Laravel', 'CloudFlare', 'Redis', 'Docker', 'PostgreSQL'],
+      category: 'em_desenvolvimento',
       link: '#',
       img: placeholderImg('Jogo • Eclypse', '#7C5CFF', '#0B0714'),
     },
@@ -411,7 +411,7 @@ const revealObserver = (() => {
       title: 'Blog Pessoal',
       description: 'Meu desejo era ter um blog para centralizar tudo que eu faço, e a partir disso, compartilhar os eventos em que participo, notícias sobre meus jogos que estou desenvolvendo, além de compartilhar enquetes para deixar os próprios usuários do jogo decidir com quais artes, ele será feito, e até mesmo postar minhas reflexões e experiências.',
       tags: ['Angular Framework', 'SCSS', 'TypeScript', 'SpringBoot', 'PostgreSQL'],
-      category: 'outros',
+      category: 'no_papel',
       link: '#',
       img: placeholderImg('Site • Blog Pessoal', '#FFB454', '#7C5CFF'),
     },
@@ -455,6 +455,30 @@ const revealObserver = (() => {
       category: 'frontend',
       link: 'https://mundo-da-musica.vercel.app',
       img: placeholderImg('Site • Mundo da Música', '#7a5b12', '#3f23af'),
+    },
+    {
+      title: 'Estoque de TI',
+      description: 'Havia na sala objetos e ferramentas os quais não eram identificados, poderia alguém pegar e ninguém saber para onde foi, entretanto agora com este site local que está na empresa, conseguimos saber a quantidade, nome, quem pegou, se tem ip qual é, saber a senha, e dentre mais detalhes.',
+      tags: ['Laravel', 'PostgreSQL'],
+      category: 'fullstack',
+      link: '#',
+      img: placeholderImg('Site • Estoque TI', '#7a5b12', '#3f23af'),
+    },
+    {
+      title: 'ConectaEdu',
+      description: 'Projeto de extensão que visa garantir inicialmente que uma escola estadual no munícipio de Irará deixe de usar papéis, e comece a utilizar um sistema com avisos no portal, com grades montadas pelo admin, dias de aulas, possibilidade de substituição de profissionais da educação, e afins. Minha atribuição nesse projeto é atuar como Engenheiro de Software, entreguei o design, a documentação inicial e também a parte inicial do site com somente o essencial de dados mockados e sem dados dinâmicos, foi entregue para o QA do grupo implementar os testes.',
+      tags: ['Laravel', 'MySQL'],
+      category: 'fullstack',
+      link: '#',
+      img: placeholderImg('Site • ConectaEdu', '#7a5b12', '#3f23af'),
+    },
+    {
+      title: 'Nexa',
+      description: 'Projeto criado para a matéria de desenvolvimento mobile híbrido, é um portal para nossa universidade, a Unex, hoje nos acessamos somente via site, então pensamos em criar um app onde todos poderiam acessar com informações úteis e que pudesse verificar offline mesmo como as aulas, pois temos que passar por diversas etapas até chegarmos a ela pelo site, e dentre outras funcionalidades, e se precisasse de alguma outra informação poderia ser redicionado ao site. Minha atribuição nesse projeto foi atuar como Desenvolvedor Mobile com React Native, implementando algumas telas com base no que foi feito pelo nosso designer e a navegação entre elas.',
+      tags: ['React Native', 'Expo'],
+      category: 'apps',
+      link: '#',
+      img: placeholderImg('Aplicativo • Nexa', '#7a5b12', '#3f23af'),
     }
   ];
 
